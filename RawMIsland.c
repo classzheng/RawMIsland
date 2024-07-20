@@ -7,7 +7,7 @@
 #include "RawMIsland.h"
 int main(int ac,char* av[], char* ev[]) {
 	srand(time(0));
-	RgbStore* mtr=greateWorld(40,rand(),HgIsland);
+	RgbStore* mtr=GLgrtFillet(40,rand());
 	GFDisp(mtr,40,false);
 	return 0;
 }
